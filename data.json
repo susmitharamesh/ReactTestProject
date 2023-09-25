@@ -1,24 +1,14 @@
 {
   "posts": [
     {
-      "title": "Updated Title",
-      "body": "Updated Body",
+      "title": "Apple",
+      "body": "Good for Health",
       "id": 1
     },
     {
-      "id": 2,
-      "title": "How to parse or read CSV files in ReactJS",
-      "body": "In this article, I will teach you how to parse or read CSV files in ReactJS in the simplest way possible. "
-    },
-    {
-      "title": "asdfgh",
-      "body": "qwert",
-      "id": 3
-    },
-    {
-      "title": "erdftyg",
-      "body": "aerdft",
-      "id": 4
+      "title": "React",
+      "body": "React is useful for FrontEnd Devloper",
+      "id": 2
     }
   ]
 }

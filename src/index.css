@@ -13,7 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+body{
+  background: url('./assets/bgimage.jpg');
+  opacity: 0.9;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -26,11 +29,24 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+align-items: center;
+justify-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
-
+.post-list
+{
+  border: 2px solid grey;
+  display: grid;
+  gap:20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(240, 248, 255, 0.697);
+}
+.post{
+display: flex;
+gap:20px;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
